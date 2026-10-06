@@ -1,0 +1,25 @@
+test_active_session_stays_alive_until_absolute_limit (test_auth.AuthTests.test_active_session_stays_alive_until_absolute_limit) ... ok
+test_bad_usernames_rejected (test_auth.AuthTests.test_bad_usernames_rejected) ... ok
+test_cookie_has_secure_attributes (test_auth.AuthTests.test_cookie_has_secure_attributes) ... ok
+test_duplicate_username_rejected (test_auth.AuthTests.test_duplicate_username_rejected) ... ok
+test_idle_session_expires (test_auth.AuthTests.test_idle_session_expires) ... ok
+test_invalid_or_forged_session_cookie_rejected (test_auth.AuthTests.test_invalid_or_forged_session_cookie_rejected) ... ok
+test_logged_out_token_cannot_be_reused (test_auth.AuthTests.test_logged_out_token_cannot_be_reused) ... ok
+test_new_session_token_on_each_login (test_auth.AuthTests.test_new_session_token_on_each_login) ... ok
+test_non_string_input_rejected (test_auth.AuthTests.test_non_string_input_rejected) ... ok
+test_password_is_hashed_not_stored_in_plaintext (test_auth.AuthTests.test_password_is_hashed_not_stored_in_plaintext) ... ok
+test_protected_route_requires_login (test_auth.AuthTests.test_protected_route_requires_login) ... ok
+test_rate_limit_blocks_brute_force (test_auth.AuthTests.test_rate_limit_blocks_brute_force) ... ok
+test_rate_limit_blocks_even_correct_password_while_locked (test_auth.AuthTests.test_rate_limit_blocks_even_correct_password_while_locked) ... ok
+test_rate_limit_resets_after_window (test_auth.AuthTests.test_rate_limit_resets_after_window) ... ok
+test_same_password_gives_different_hashes_salted (test_auth.AuthTests.test_same_password_gives_different_hashes_salted) ... ok
+test_security_headers_present (test_auth.AuthTests.test_security_headers_present) ... ok
+test_session_grants_access_then_logout_revokes_it (test_auth.AuthTests.test_session_grants_access_then_logout_revokes_it) ... ok
+test_unknown_user_and_wrong_password_give_identical_errors (test_auth.AuthTests.test_unknown_user_and_wrong_password_give_identical_errors) ... ok
+test_valid_login_succeeds (test_auth.AuthTests.test_valid_login_succeeds) ... ok
+test_weak_passwords_rejected (test_auth.AuthTests.test_weak_passwords_rejected) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 4.766s
+
+OK
